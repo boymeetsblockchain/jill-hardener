@@ -6,15 +6,15 @@ export default function Table() {
     <div className="flex justify-between items-center mb-2">
        <div className="profile flex  gap-1">
          <div className="img">
-         < BsFillArrowUpRightCircleFill fill='purple' size={32} />
+         < BsFillArrowDownRightCircleFill fill='green' size={32} />
          </div>
          <div className="name-good">
-            <h1 className='text-sm mb-1'>Zu Unternehmen<span className='text-gray-500'>Geschäft</span></h1>
+            <h1 className='text-sm mb-1'>Von Unternehmen<span className='text-gray-500'>Geschäft</span></h1>
             <h1 className='text-sm text-gray-400'>12 April,2023</h1>
          </div>
         </div>
       <div className="amount">
-         <p>-€300,000</p>
+         <p>€300,000</p>
        </div>
        </div>
        <hr />
@@ -29,17 +29,17 @@ export default function Table() {
          </div>
         </div>
       <div className="amount">
-         <p>€6000</p>
+         <p>€60,000</p>
        </div>
        </div>
        <hr />
        <div className="flex justify-between items-center mb-2">
        <div className="profile flex  gap-1">
          <div className="img">
-            < BsFillArrowUpRightCircleFill fill='purple' size={32} />
+            < BsFillArrowDownRightCircleFill fill='green' size={32} />
          </div>
          <div className="name-good">
-            <h1 className='text-sm mb-1'>Zu Tim Wagner <span className='text-gray-500'>Kaffee</span></h1>
+            <h1 className='text-sm mb-1'>Von Innovationswerkstatt AG <span className='text-gray-500'>.Geschäft</span></h1>
             <h1 className='text-sm text-gray-400'>20 Marz,2023</h1>
          </div>
         </div>
@@ -51,15 +51,15 @@ export default function Table() {
        <div className="flex justify-between items-center mb-2">
        <div className="profile flex  gap-1">
          <div className="img">
-            < BsFillArrowDownRightCircleFill fill='green' size={32} />
+            < BsFillArrowUpRightCircleFill fill='purple' size={32} />
          </div>
          <div className="name-good">
-            <h1 className='text-sm mb-1'> Zu Lena Schmidt <span className='text-gray-500'>.Hemd</span></h1>
+            <h1 className='text-sm mb-1'> Zu Lena Schmidt <span className='text-gray-500'>.Geschäft</span></h1>
             <h1 className='text-sm text-gray-400'>10 Marz,2023</h1>
          </div>
         </div>
       <div className="amount">
-         <p>-€200</p>
+         <p>-€200,000</p>
        </div>
        </div>
        <hr />
