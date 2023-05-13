@@ -9,7 +9,9 @@ export default function LoginForm() {
     e.preventDefault();
     if (username === 'jilhardener1234' && password === '198809') {
         // Navigate to /profile page
+        toast.success('Willkommen')
         navigate('/profile');
+       
       } else {
         // Show authorization failed alert
         toast.error('Autorisierung fehlgeschlagen');
