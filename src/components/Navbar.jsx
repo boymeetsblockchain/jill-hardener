@@ -9,7 +9,7 @@ export default function Navbar() {
         toast.error("Not authorized")
     }
   return (
-  <nav className='fixed bottom-0 left-0 right-0 p-4  text-white  bg-transparent rounded-md'>
+  <nav className='fixed bottom-0 left-0 right-0 p-4  text-white  bg-black rounded-md'>
       <ul className="flex flex-row justify-between">
          <div className="home flex flex-col items-center hover:border-t-2 border-lime-300">
             <TbSmartHome size={24}  className='hover:text-lime-300 mt-1' />
