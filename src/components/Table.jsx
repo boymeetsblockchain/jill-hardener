@@ -59,7 +59,7 @@ export default function Table() {
          </div>
         </div>
       <div className="amount">
-         <p>-€200,000</p>
+         < p>€200,000</p>
        </div>
        </div>
        <hr />
