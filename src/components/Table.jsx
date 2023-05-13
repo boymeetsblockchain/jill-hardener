@@ -44,7 +44,7 @@ export default function Table() {
          </div>
         </div>
       <div className="amount">
-         <p>-€100</p>
+         <p>€100,000</p>
        </div>
        </div>
        <hr />
@@ -54,7 +54,7 @@ export default function Table() {
             < BsFillArrowUpRightCircleFill fill='purple' size={32} />
          </div>
          <div className="name-good">
-            <h1 className='text-sm mb-1'> Zu Lena Schmidt <span className='text-gray-500'>.Geschäft</span></h1>
+            <h1 className='text-sm mb-1'> Zu Neues Horizonte Start-up GmbH <span className='text-gray-500'>.Geschäft</span></h1>
             <h1 className='text-sm text-gray-400'>10 Marz,2023</h1>
          </div>
         </div>
