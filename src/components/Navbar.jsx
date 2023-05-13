@@ -3,7 +3,7 @@ import { BiTransferAlt } from 'react-icons/bi';
 import { TbSmartHome } from 'react-icons/tb';
 import { BsPersonFill } from 'react-icons/bs';
 import toast from 'react-hot-toast';
-
+import { Link } from 'react-router-dom';
 export default function Navbar() {
   const onClick = () => {
     toast.error('Nicht autorisiert');
@@ -14,7 +14,7 @@ export default function Navbar() {
       <ul className="flex flex-row justify-between">
         <div className="home flex flex-col items-center hover:border-t-2 border-lime-300">
           <TbSmartHome size={24} className='hover:text-lime-300 mt-1' />
-          <h2>Startseite</h2>
+          <h2><Link to='/'>Startseite</Link></h2>
         </div>
         <div className="home flex flex-col items-center hover:border-t-2 border-lime-300" onClick={onClick}>
           <FaCreditCard size={24} className='hover:text-lime-300 mt-1' />
