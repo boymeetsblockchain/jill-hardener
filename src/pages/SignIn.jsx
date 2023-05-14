@@ -21,6 +21,7 @@ export default function LoginForm() {
 
   return (
     <div className="flex justify-center items-center h-screen">
+      <h1>Deustsche Bank</h1>
       <form
         className="w-full max-w-md bg-white rounded-lg shadow-lg p-8"
         onSubmit={handleSubmit}
