@@ -14,7 +14,7 @@ export default function Table() {
          </div>
         </div>
       <div className="amount">
-         <p>€300,000</p>
+         <p>€60,000</p>
        </div>
        </div>
        <hr />
@@ -29,7 +29,7 @@ export default function Table() {
          </div>
         </div>
       <div className="amount">
-         <p>€60,000</p>
+         <p>€10,000</p>
        </div>
        </div>
        <hr />
@@ -44,7 +44,7 @@ export default function Table() {
          </div>
         </div>
       <div className="amount">
-         <p>€100,000</p>
+         <p>€10,000</p>
        </div>
        </div>
        <hr />
@@ -59,7 +59,7 @@ export default function Table() {
          </div>
         </div>
       <div className="amount">
-         < p>€200,000</p>
+         < p>€10,000</p>
        </div>
        </div>
        <hr />

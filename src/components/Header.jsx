@@ -1,5 +1,6 @@
 import { BsFillBellFill } from 'react-icons/bs';
 import profile from '../assets/profile.jpg';
+import profile2 from '../assets/profile2.jpg'
 import React, { useState, useEffect } from 'react';
 import toast from 'react-hot-toast';
 
@@ -32,7 +33,7 @@ export default function Header() {
         <div className="flex justify-between items-center">
           <div className="profile flex gap-1">
             <div className="img">
-              <img src={profile} alt="" className='h-12 w-12 rounded-lg' />
+              <img src={profile2} alt="" className='h-12 w-12 rounded-lg' />
             </div>
             <div className="name-good">
               <h1 className='text-sm mb-1'>Kayla Moody</h1>
