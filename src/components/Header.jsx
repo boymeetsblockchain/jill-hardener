@@ -45,7 +45,7 @@ export default function Header() {
         </div>
         <div className="balance flex flex-col my-6 gap-3">
           <p className='text-sm text-gray-400'>Gesamtsaldo:</p>
-          <h1 className='text-lime-300 text-2xl'> €700,000 EUR</h1>
+          <h1 className='text-lime-300 text-2xl'> €1,000,000 EUR</h1>
           <p className='text-red-400 text-[8px]'>Konto eingeschränkt, bitte kontaktieren Sie das Management</p>
         </div>
         <hr className='text-gray-400' />
